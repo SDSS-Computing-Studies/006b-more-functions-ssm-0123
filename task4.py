@@ -16,6 +16,3 @@ def area(r):
     result=r**2*math.pi
     return result
 
-print(round(area(2),2))
-exit()
-assert round(area(2),2) == 12.57

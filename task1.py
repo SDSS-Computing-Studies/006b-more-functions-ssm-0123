@@ -19,6 +19,3 @@ def btcTocad(a):
     return result
 
 
-
-
-assert btcTocad(1) == 45000

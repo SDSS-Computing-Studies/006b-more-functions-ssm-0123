@@ -18,6 +18,6 @@ def convertTemp(a,b):
         result = a*5
     elif b == 'F':
         result = a-32
-    return(result)
+    return result
 
 

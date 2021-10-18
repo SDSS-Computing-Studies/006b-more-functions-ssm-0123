@@ -14,7 +14,3 @@ def largest(a):
     a=list(a)
     a.sort(reverse=True)
     return a[0]
-
-print(largest([3,10,3]))
-exit()
-assert largest([3,10,3]) == 10
