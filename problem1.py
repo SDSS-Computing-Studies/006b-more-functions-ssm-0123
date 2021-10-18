@@ -13,3 +13,11 @@ assert convertTemp(10,'C') == 50
 assert converTemp(32,'F') == 0
 """
 
+def convertTemp(a,b):
+    if b == 'C':
+        result = a*5
+    elif b == 'F':
+        result = a-32
+    return(result)
+
+
